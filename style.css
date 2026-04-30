@@ -1,0 +1,5 @@
+.clock { width: 200px; height: 200px; border: 5px solid black; border-radius: 50%; position: relative; margin-bottom: 20px; }
+.hand { position: absolute; bottom: 50%; left: 50%; transform-origin: bottom; background: black; }
+.hour { width: 6px; height: 50px; margin-left: -3px; }
+.minute { width: 4px; height: 70px; margin-left: -2px; }
+.second { width: 2px; height: 80px; margin-left: -1px; background: red; }
